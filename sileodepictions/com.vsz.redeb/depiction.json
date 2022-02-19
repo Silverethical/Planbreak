@@ -1,0 +1,61 @@
+{
+	"minVersion": "0.4",
+	"headerImage": "https://github.com/Silverethical/planbreak/raw/main/assets/Banners/RepoHeader.png",
+	"tintColor": "#e68200",
+	"backgroundColor": "#e68200",	
+	"tabs": [
+		{
+			"tabname": "Details",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "## توییک redeb"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "استخراج فایل deb از توییک های نصب شده. نحوه استفاده از این توییک در کانال Planbreak توضیح داده شده."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"title": "کانال تلگرام Planbreak",
+					"action": "https://t.me/Planbreak",
+					"class": "DepictionTableButtonView"
+				},
+				{
+					"title": "گروه پرسش و پاسخ جیلبریک",
+					"action": "https://t.me/PlanbreakDiscussion",
+					"class": "DepictionTableButtonView"
+				},
+				{
+					"spacing": 16,
+					"class": "DepictionSpacerView"
+				},
+				{
+					"spacing": 20,
+					"class": "DepictionSpacerView"
+				}
+			],
+			"class": "DepictionStackView"
+		},
+		{
+			"tabname": "Changelog",
+			"views": [
+				{
+					"title": "1.0.3-1",
+					"useBoldText": true,
+					"useBottomMargin": true,
+					"class": "DepictionSubheaderView"
+				},
+				{
+					"markdown": "\t\n\u2022 رفع مشکل پیش نیاز (apt7)",
+					"useSpacing": false,
+					"class": "DepictionMarkdownView"
+				},
+			],
+			"class": "DepictionStackView"
+		}
+	],
+	"class": "DepictionTabView"
+}

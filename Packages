@@ -1,0 +1,190 @@
+Package: com.alaise.azule
+Version: 0.5.5
+Architecture: iphoneos-arm
+Maintainer: Alaise
+Depends: odcctools, bash, jq, com.level3tjg.insert-dylib, plutil | com.bingner.plutil, ldid, coreutils, zip, unzip, sed, curl, me.alfhaily.opencli, com.linusyang.appinst
+Filename: ./debs/com.alaise.azule_0.5.5_iphoneos-arm.deb
+Size: 994592
+MD5sum: a33f608d9f42bf157ffc95409ce4057e
+SHA1: ee9bbad077f5980330cae6966b5c8356ba8dcfc9
+SHA256: 014cc97aca40c381d1e7253f60d70aeeeafbab97cfad468aae52ee7bbec2ee67
+Section: Utilities
+Priority: optional
+Description: A CLI tool that injects tweaks into jailed iOS apps
+Author: Alaise
+Name: Azule
+
+Package: com.laxus.iosgodsiapcracker
+Version: 1.0-2+debug
+Architecture: iphoneos-arm
+Maintainer: Laxus
+Installed-Size: 296
+Depends: mobilesubstrate
+Filename: ./debs/com.laxus.iosgodsiapcracker_1.0-2+debug_iphoneos-arm.deb
+Size: 18412
+MD5sum: f609fdef7758b9f6c5b544781c58ded7
+SHA1: 6c7108cb350d2442aebc099fe3b2feaf939a55d6
+SHA256: 9f4b9857cd7a8286a14b477e5796cc14d7d71224fb8d8987a5a0324c4871aeb7
+Section: Tweaks
+Description: Free iAP Purchase for some apps and games, it doesn’t always work so don’t expect much. Turn on the tweak inside iOS Settings. This tweak is made by @Laxus for iOSGods.com, supported A12 / A13 devices
+Author: Laxus
+Name: iOSGods iAP Cracker
+
+Package: com.level3tjg.insert-dylib
+Version: 1.0.3
+Architecture: iphoneos-arm
+Maintainer: level3tjg
+Filename: ./debs/com.level3tjg.insert-dylib_1.0.3_iphoneos-arm.deb
+Size: 40636
+MD5sum: 789c283a43282dfa23f3ae7de8ee3b5d
+SHA1: 01e86b06b89109c0a0249cb0a7e805b750223230
+SHA256: 92f729cbf5aa9e80c34a8f76ec42d4310c0f09fc8b9f8a2b54b8cb53ca018497
+Section: System
+Description: Command line utility for inserting a dylib load command into a Mach-O binary. https://github.com/Tyilo/insert_dylib
+Tag: role:hacker
+Author: level3tjg
+Depiction: https://level3tjg.me/repo/depictions/?p=com.level3tjg.insert-dylib
+Name: insert_dylib
+
+Package: com.linusyang.appinst
+Version: 1.1.4
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Installed-Size: 392
+Pre-Depends: firmware (>= 5.0)
+Depends: net.angelxwind.appsyncunified (>= 5.1)
+Conflicts: com.sull.appinstaller
+Filename: ./debs/com.linusyang.appinst_1.1.4.deb
+Size: 75224
+MD5sum: bc07d52e849498a244f392d09b8d1ae8
+SHA1: b8e7578118cee54ddb49b739907ad015310601c8
+SHA256: 2b1cce8defe3eba168c4fbd038c8dac4e8ffe7bb8c4ddeba178f8b0a6c597d25
+Section: Utilities
+Priority: standard
+Homepage: https://github.com/akemin-dayo/AppSync
+Description: Install IPAs from the command line
+Tag: role::enduser, purpose::console
+Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/com.linusyang.appinst
+Name: appinst (App Installer)
+
+Package: com.savlabs.inshop
+Version: 1.0.0+iOSGods.com
+Architecture: iphoneos-arm
+Maintainer: sav
+Installed-Size: 136
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.savlabs.inshop_1.0.0+iOSGods.com_iphoneos-arm.deb
+Size: 6230
+MD5sum: 1aff0a0cc254383f12bb6846d8410199
+SHA1: e122b0360b1c59d581ff162aabbe19fb3e4c6f95
+SHA256: 6fd43e1fec5b84c7e090715b93762932ab3e08e13382b8fc8e1b350783b51a26
+Section: Tweaks
+Homepage: https://iosgods.com
+Description: An awesome Cydia Substrate tweak from iOSGods.com!
+Author: sav
+Icon: file:///Library/PreferenceBundles/InShop.bundle/InShop@2x.png
+Name: InShot - Video Editor Cheats
+
+Package: com.tapthaker.bigshotjb11
+Version: 0.0.2-3
+Architecture: iphoneos-arm
+Installed-Size: 204
+Depends: firmware (>= 8.0), mobilesubstrate, libactivator (>= 1.8.3), com.rpetrich.rocketbootstrap
+Conflicts: com.tapthaker.bigshotjb
+Filename: ./debs/com.tapthaker.bigshotjb11_0.0.2-3_iphoneos-arm.deb
+Size: 26296
+MD5sum: 77deb99275935b777fd2282b949fd083
+SHA1: e5fb2ee3cc6b03c749831100b733f1cda0edd738
+SHA256: c79a97f16c50541e4f80cf601c247bf97ece57dfb0d98d7b0222294bf72adb6e
+Section: Tweaks
+Priority: optional
+Description: A way to take screenshots of full vertically scrollable area of the screen.
+Author: Tapan Thaker (tapthaker)
+Name: BigShotJb (iOS 11)
+
+Package: com.vsz.redeb
+Version: 1.0.3-1
+Architecture: iphoneos-arm
+Maintainer: T.Herak <50dc856b@opayq.com>
+Depends: bash (>= 4.0.17-13), coreutils (>= 8.12-12p), grep (>= 2.5.4-3), sed (>= 4.1.5-7), gawk (>= 3.1.6-2p), apt (>= 0.7.25.3-6)
+Filename: ./debs/com.vsz.redeb_1.0.3-1_iphoneos-arm.deb
+Size: 3420
+MD5sum: 732aa8ddf2b9e241675a9fb581dfd949
+SHA1: f6f070c6c0365b92da92f9879227f5f96a70bf1b
+SHA256: 1bbd4ef8d32efd853ab2d1f2aca1418176f3b9653751a71190032de1ceefdc65
+Section: Utilities
+Priority: extra
+Author: T.Herak <50dc856b@opayq.com>
+Depiction: https://silverethical.github.io/planbreak/depictions/?p=com.vsz.redeb
+Name: redeb
+Sileodepiction: https://silverethical.github.io/planbreak/sileodepictions/?p=com.vsz.redeb
+
+Package: iOSGods.com.PUBG
+Version: 0.9.19+iOSGods.com
+Architecture: iphoneos-arm
+Maintainer: iOSGods.com
+Installed-Size: 8508
+Depends: mobilesubstrate
+Filename: ./debs/iOSGods.com.PUBG_0.9.19iOSGods.com_iphoneos-arm.deb
+Size: 2420704
+MD5sum: e04cb7ed7c20f2e6e582e012d3e85e97
+SHA1: 42e3391cabc67ce7db15a3426ba03c08de944152
+SHA256: defb102e166439d0fad31243ed58aa114edaf4235f773b8261c1277e3a204bed
+Section: Tweaks
+Homepage: https://iosgods.com
+Description: PUBG: NEW STATE iGMM Cheats by Zahir for iOSGods.com!
+Author: Zahir
+Name: PUBG: NEW STATE Cheats
+
+Package: kr.xsf1re.flyjbx
+Version: 1.2.5
+Architecture: iphoneos-arm
+Maintainer: XsF1re
+Installed-Size: 1580
+Depends: mobilesubstrate
+Conflicts: kr.xsf1re.flyjb
+Filename: ./debs/kr.xsf1re.flyjbx_1.2.5_iphoneos-arm.deb
+Size: 765924
+MD5sum: 0d717d4451fd1976650ccabf38e7ac30
+SHA1: 37ba48e0771efdea5a2ac21fc98f2b97852ce826
+SHA256: fe907e6c862274e18d870fa777c1b32e8e5ed2ab1f7c19cc5061012bb150fc56
+Section: Tweaks
+Description: You can HIDE Doing jailbreak your iDevice.
+Author: XsF1re
+Name: FlyJB X
+
+Package: love.litten.copypasta
+Version: 1.3.4
+Architecture: iphoneos-arm
+Maintainer: Litten
+Installed-Size: 640
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 13.0), applist, com.mrgcgamer.libgcuniversal, com.spark.libsparkapplist
+Filename: ./debs/love.litten.copypasta_1.3.4_iphoneos-arm.deb
+Size: 213424
+MD5sum: 0dc70cbac5824a91a2887a1b08866e31
+SHA1: 79686e2b51cd02f192fb7577f87ea73f894bfce5
+SHA256: f5e47009d54bdf081f4826cde775bffc87fe1527e908f313fa0421bf9cd5a06a
+Section: Tweaks
+Description: Minimalist clipboard manager
+ .
+ (Repackaged on Fri, 10 Dec 2021 14:48:26 +0330 by dpkg-repack.)
+
+Package: me.alfhaily.opencli
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 68
+Filename: ./debs/me.alfhaily.opencli_1.0.0_iphoneos-arm.deb
+Size: 2504
+MD5sum: 64f400c8a9a649697e5e54f1a11d9cf4
+SHA1: 483c509d55722eaa84ada3ed2dc335f061850c8a
+SHA256: c4b201a5591a339245b3cd309a1de4bcbaec594c6ff2943b5c478e5f54f00e43
+Section: System
+Description: Launch apps from the command-line, originally made by Conrad Kramer. This package is updated to work with Electra 11.x.
+Tag: purpose::console, role::hacker
+Author: Majd Alfhaily <freemanrepo@me.com>
+Dev: freemanrepo
+Name: Open
+Sponsor: thebigboss.org <http://thebigboss.org>
+

@@ -1,0 +1,14 @@
+<repo>
+    <footerlinks>
+        <link>
+            <name>کانال تلگرام Planbreak</name>
+            <url>https://t.me/Planbreak</url>
+            <iconclass>fa fa-telegram</iconclass>
+        </link>
+        <link>
+            <name>گروه پرسش و پاسخ جیلبریک</name>
+            <url>https://t.me/PlanbreakDiscussion</url>
+            <iconclass>fa fa-telegram</iconclass>
+        </link>
+    </footerlinks>
+</repo>

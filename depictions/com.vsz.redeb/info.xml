@@ -1,0 +1,28 @@
+<package>
+	<id>com.vsz.redeb</id>
+	<name>redeb</name>
+	<version>1.0.3-1</version>
+	<compatibility>
+		<firmware>
+			<miniOS>3.0</miniOS>
+			<maxiOS>14.9.9</maxiOS>
+			<otherVersions>untested</otherVersions>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>bash (>= 4.0.17-13)</package>
+		<package>coreutils (>= 8.12-12p)</package>
+		<package>grep (>= 2.5.4-3)</package>
+		<package>sed (>= 4.1.5-7)</package>
+		<package>gawk (>= 3.1.6-2p)</package>
+		<package>apt (>= 0.7.25.3-6)</package>
+	</dependencies>
+	<descriptionlist>
+		<description>استخراج فایل deb از توییک های نصب شده. نحوه استفاده از این توییک در کانال Planbreak توضیح داده شده.</description>
+	</descriptionlist>
+	<screenshots></screenshots>
+	<changelog>
+		<change>رفع مشکل پیش نیاز (apt7)</change>
+	</changelog>
+	<links></links>
+</package>
