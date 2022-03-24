@@ -1,13 +1,13 @@
 Package: com.alaise.azule
-Version: 0.5.8
+Version: 0.5.7
 Architecture: iphoneos-arm
 Maintainer: Alaise
 Depends: odcctools, bash, jq, com.level3tjg.insert-dylib, plutil | com.bingner.plutil, ldid, coreutils, zip, unzip, sed, curl, me.alfhaily.opencli, com.linusyang.appinst
-Filename: ./debs/com.alaise.azule_0.5.8_iphoneos-arm.deb
-Size: 996544
-MD5sum: 9b6f65d79e21c3d5d068fd1525c4f1c3
-SHA1: 874d5438a828cc0d13b2853de46b71b39028b127
-SHA256: 74418746a8fedde7a8eda616b4cb1e865dc08c74753d0578d68becd5a7d9a10e
+Filename: ./debs/com.alaise.azule_0.5.7_iphoneos-arm.deb
+Size: 997872
+MD5sum: 1f950bf0a3c8e53eb8d81e14edad9954
+SHA1: c619e47b2c4b369747a93bdad70e0ba63cf6a384
+SHA256: 98109e4c5df968d8ecda5c7399fba4bfe2d7b243a4794e57847398c63675b862
 Section: Utilities
 Priority: optional
 Description: A CLI tool that injects tweaks into jailed iOS apps
